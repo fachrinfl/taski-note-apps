@@ -5,6 +5,7 @@ const theme = {
     background: '#F2F2F2',
     text: '#0B0A11',
     white: '#FFFFFF',
+    error: '#BA1735',
   },
   typography: {
     fontFamily: {

@@ -1,10 +1,10 @@
 import React from 'react';
-import {SafeAreaView, View, StyleSheet} from 'react-native';
+import {SafeAreaView, View, StyleSheet, ViewStyle} from 'react-native';
 import theme from '../theme/theme';
 
 interface IProps {
   children: React.ReactNode;
-  extraStyle?: any;
+  extraStyle?: ViewStyle;
 }
 
 const Layout: React.FC<IProps> = ({children, extraStyle}) => {
